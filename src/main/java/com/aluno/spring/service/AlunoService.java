@@ -11,7 +11,6 @@ import com.aluno.spring.repository.AlunoRepository;
 
 import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Service
 public class AlunoService {
 

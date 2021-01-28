@@ -42,7 +42,7 @@ import io.swagger.annotations.ApiResponses;
 @Api(value = "/v1/aluno", description = "Responsável por Aluno")
 @RestController
 @Validated
-@RequestMapping("/aluno")
+@RequestMapping("/v1/aluno")
 @CrossOrigin(origins="*")
 public class AlunoController {
 

@@ -23,7 +23,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.aluno.spring.controller"))
-                .paths(regex("/aluno.*"))
+                .paths(regex("/v1/aluno.*"))
                 .build()
                 .apiInfo(metaInfo());
     }
